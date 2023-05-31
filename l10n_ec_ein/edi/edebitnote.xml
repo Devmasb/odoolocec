@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<odoo>
+  <data noupdate="1">
+    <record id="email_template_edebitnot" model="mail.template">
+      <field name="name">Enviar Deb Electronica</field>
+      <field name="email_from">${('noresponder@sample.com')|safe}</field>
+      <field name="subject">NOTA DE DEBITO ELECTRONICA ${object.company_id.name} ${ object.name }</field>
+      <field name="partner_to">${object.partner_id.id}</field>
+      <field name="model_id" ref="account.model_account_move"/>
+      <field name="auto_delete" eval="True"/>
+      <field name="report_template" ref="l10n_ec_reports.account_debitnote_elec"/>
+      <field name="report_name">NOTA_DEBITO_${(object.name or '').replace('/','_')}</field>
+      <field name="lang">${object.partner_id.lang}</field>
+      <field name="body_html"><![CDATA[
+          <h3>Estimada/o ${ object.partner_id.name },</h3>
+          <br>
+          ${object.company_id.name}, se dirige a usted para enviarle su <b> Nota de Débito Electrónica No. ${object.name}</b>, con fecha de emisión ${object.invoice_date} por un total de ${ object.amount_total },
+          disponible como documento adjunto a este correo y aprovechar la oportunidad para agradecerle profundamente la preferencia que ha mostrado por nuestros productos y servicios. <br/><br/>
+
+          <br/><br/>
+          Saludos cordiales.
+          <br/><br/>
+          <b>Departamento de Ventas</b><br/>
+          ${object.company_id.name}<br/>
+          % set access_action = object.with_context(force_website=True).get_access_action()
+          % set is_online = access_action and access_action['type'] == 'ir.actions.act_url'
+          % set access_url = object.get_portal_url()
+          % if is_online:
+            <br/><br/>
+            <center>
+              <a href="${access_url}" style="background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;" class="o_default_snippet_text">Ver Nota de Débito</a>
+            </center>
+          % endif
+          <br/><br/>
+          <h3>Desallorado con tecnología de WEBDIT</h3>
+          <a href="https://thewebdit.com/" target="_blank">VISITANOS SOMOS WEBDIT</a>
+          <br/><br/>
+          
+        ]]>
+      </field>
+    </record>
+  </data>
+</odoo>
+

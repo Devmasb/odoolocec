@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_account_invoice_inherit" model="ir.ui.view">
+        <field name="name">account.move.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_invoice_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='invoice_user_id']" position="after">
+                <!-- <field name="sri_authorization"/> -->
+                <field name="to_cancel"/>
+                <field name="base_imponible_doce"/>
+                <field name="base_imponible_cero"/>
+            </xpath>
+        </field>
+        </record>
+
+    </data>
+</odoo>

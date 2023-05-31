@@ -1,0 +1,597 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ec_par
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20220126\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-17 18:26+0000\n"
+"PO-Revision-Date: 2023-05-17 14:27-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.3.1\n"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_needaction
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_needaction
+msgid "Action Needed"
+msgstr "Accion necesaria"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_ids
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_exception_decoration
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de Actividad  de Excepción"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_state
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_state
+msgid "Activity State"
+msgstr "Estado de la actividad"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_type_icon
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ícono de tipo de actvidad"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__agente_retencion
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__agente_retencion
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__agente_retencion
+msgid "Agente retención"
+msgstr "Agente de retención"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_attachment_count
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recuento de archivos adjuntos"
+
+#. module: l10n_ec_par
+#: model:ir.model,name:l10n_ec_par.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: l10n_ec_par
+#: model:ir.model,name:l10n_ec_par.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__contribuyente_especial
+msgid "Contribuyente Especial"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__create_date
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: l10n_ec_par
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.view_res_company_settings_form
+msgid "Código Autorizado"
+msgstr "Código Postal / Población"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__display_name
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__display_name
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__display_name
+msgid "Display_name"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.ui.menu,name:l10n_ec_par.odoo_lecmenu_root
+msgid "Ecuador Localization"
+msgstr "Número de identificación"
+
+#. module: l10n_ec_par
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.view_res_company_ei_form
+msgid "Electronic Documents"
+msgstr "Documento Electrónico"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__env_service
+msgid "Environment Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__es_artesano
+msgid "Es Artesano"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__property_account_position_id
+msgid "Fiscal Position"
+msgstr "Posición fiscal"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_follower_ids
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_channel_ids
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_partner_ids
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__activity_type_icon
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icono de Font Awesome ej. fa-tasks"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__help
+msgid "Help"
+msgstr ""
+"No hay nada peor para un equipo de ventas que una sequía de leads. "
+"Afortunadamente, con solo unos clics, puedes generar leads específicamente "
+"dirigidos a tus necesidades: tamaño de compañía, industria, etc. Te "
+"ofrecemos 200 créditos gratis para que pruebes esta función."
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__id
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__id
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_exception_icon
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__activity_exception_icon
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepción."
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__vat
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.view_company_latam_form
+msgid "Identification Number"
+msgstr "Número de identificación"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_res_company__vat
+msgid "Identification Number for selected type"
+msgstr "Número de identificación"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__l10n_latam_identification_type_id
+msgid "Identification Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__message_needaction
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__message_unread
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__message_needaction
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los mensajes nuevos requieren su atención."
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__message_has_error
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__message_has_sms_error
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__message_has_error
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_is_follower
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_is_follower
+msgid "Is Follower"
+msgstr "Es seguidor"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__is_force_keep_accounting
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__is_force_keep_accounting
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__is_force_keep_accounting
+msgid "Keep Accounting"
+msgstr "Contabilidad"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type____last_update
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type____last_update
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company____last_update
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__write_date
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: l10n_ec_par
+#: model:ir.module.category,description:l10n_ec_par.mudule_l10n_ec_acc
+#: model:ir.module.category,name:l10n_ec_par.mudule_l10n_ec_acc
+msgid "Location Ecuador"
+msgstr "Número de identificación"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_main_attachment_id
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Accesorio principal"
+
+#. module: l10n_ec_par
+#: model:ir.ui.menu,name:l10n_ec_par.odoo-lecmenu_1
+msgid "Master Data"
+msgstr "¡No hay información aún!"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_has_error
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensaje"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_ids
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__is_microcompany
+msgid "Microempresa"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__my_activity_date_deadline
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Fecha límite de Mis Actividades"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__need_accounting__no
+msgid "NO"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__need_accounting
+msgid "Need Accounting"
+msgstr "Necesita Contabilidad"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__rimpe_type__neg_emprendedor
+msgid "Negocio Emprendedor"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__rimpe_type__neg_popular
+msgid "Negocio Popular"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_date_deadline
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite de la siguiente actividad"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_summary
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_type_id
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipo de la siguiente actividad"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__is_force_keep_accounting__no
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__is_special_taxpayer__000
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_partner__is_force_keep_accounting__no
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_partner__is_special_taxpayer__000
+msgid "No"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__registo_artesanal
+msgid "No. Registro"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.view_company_latam_form
+msgid "Number"
+msgstr "Número"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_needaction_counter
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Numero de acciones"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_has_error_counter
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_has_error_counter
+msgid "Number of errors"
+msgstr "Numero de errores"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__message_needaction_counter
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__message_has_error_counter
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__message_unread_counter
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leídos"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__is_rimpe
+msgid "Pertenece a Régimen RIMPE?"
+msgstr "¿Pertenece al Régimen RIMPE?"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__env_service__2
+msgid "Production"
+msgstr "Producción"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__activity_user_id
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__need_accounting__si
+msgid "SI"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_has_sms_error
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__send_sri_data
+msgid "Send SRI Data"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__is_special_taxpayer
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__is_special_taxpayer
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__is_special_taxpayer
+msgid "Special TaxPayer"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__activity_state
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades\n"
+"Vencida: la fecha límite ya ha pasado\n"
+"Hoy: La fecha límite es hoy\n"
+"Planificada: futuras actividades."
+
+#. module: l10n_ec_par
+#: model:res.groups,name:l10n_ec_par.user_supervisor
+msgid "Supervisor"
+msgstr ""
+
+#. module: l10n_ec_par
+#: model:res.groups,comment:l10n_ec_par.user_supervisor
+msgid "Supervisor Ingeint"
+msgstr "Supervisor de bodega"
+
+#. module: l10n_ec_par
+#: model:ir.actions.act_window,name:l10n_ec_par.taxidtype_action_window
+#: model:ir.model,name:l10n_ec_par.model_lec_taxid_type
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.lec_taxidtype_list
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.taxidtype_view_form
+msgid "Tax ID Type"
+msgstr "Identificación del impuesto"
+
+#. module: l10n_ec_par
+#: model:ir.actions.act_window,name:l10n_ec_par.taxpayertype_action_window
+#: model:ir.model,name:l10n_ec_par.model_lec_taxpayer_type
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__taxpayer_type
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__taxpayer_type
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__taxpayer_type
+#: model:ir.ui.menu,name:l10n_ec_par.odoo-lec_2_list
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.taxpayertype_view_form
+msgid "Tax Payer Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__taxid_type
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__taxid_type
+#: model:ir.ui.menu,name:l10n_ec_par.odoo-lecmenu_1_list
+msgid "TaxID Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_par
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.lec_taxpayertype_list
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.taxpayertype_view_form
+msgid "TaxPayer Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__taxid_type
+msgid "Taxid Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__env_service__1
+msgid "Test"
+msgstr ""
+"Utiliza el botón <i>Crear</i> en la parte superior izquiera, o envía un "
+"correo electrónico a %s para probar el correo electrónico"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_res_company__property_account_position_id
+msgid ""
+"The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+
+#. module: l10n_ec_par
+#: code:addons/l10n_ec_par/models/partner.py:0
+#, python-format
+msgid "The identification number already exit in the system"
+msgstr "El número de identificación ya existe en el sistema"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_res_company__l10n_latam_identification_type_id
+msgid "The type of identification"
+msgstr "Número de identificación"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_company__rimpe_type
+msgid "Tipo de Rimpe"
+msgstr "Tipo de  Empresa"
+
+#. module: l10n_ec_par
+#: model_terms:ir.ui.view,arch_db:l10n_ec_par.view_company_latam_form
+msgid "Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__activity_exception_decoration
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción registrada."
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_unread
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__message_unread_counter
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leídos"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__vies_passed
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__vies_passed
+msgid "VIES validation"
+msgstr "Validación automática VIES"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__website_message_ids
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxid_type__website_message_ids
+#: model:ir.model.fields,help:l10n_ec_par.field_lec_taxpayer_type__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__is_force_keep_accounting__si
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_company__is_special_taxpayer__284
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_partner__is_force_keep_accounting__si
+#: model:ir.model.fields.selection,name:l10n_ec_par.selection__res_partner__is_special_taxpayer__284
+msgid "Yes"
+msgstr "SI"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__code
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__code
+msgid "code"
+msgstr "código"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__default
+msgid "default"
+msgstr "Seudónimo predeterminado para los leads"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__max_length
+msgid "max_length"
+msgstr "Duración del período"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__min_length
+msgid "min_length"
+msgstr "Duración del período"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxid_type__name
+#: model:ir.model.fields,field_description:l10n_ec_par.field_lec_taxpayer_type__name
+msgid "name"
+msgstr "nombre"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__notify_invoice
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__notify_invoice
+msgid "notify_invoice"
+msgstr "Factura"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__notify_shipment
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__notify_shipment
+msgid "notify_shipment"
+msgstr "Puerto de embarque"
+
+#. module: l10n_ec_par
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_partner__notify_withholding
+#: model:ir.model.fields,field_description:l10n_ec_par.field_res_users__notify_withholding
+msgid "notify_withholding"
+msgstr ""

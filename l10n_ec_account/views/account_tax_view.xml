@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="account_tax_form_view" model="ir.ui.view">
+		<field name="name">account.tax.form</field>
+		<field name="model">account.tax</field>
+		<field name="type">form</field>
+		<field name="inherit_id" ref="account.view_tax_form"/>
+		<field name="arch" type="xml">
+			<xpath expr="//field[@name='type_tax_use']" position="after">
+				<field name="l10n_ec_code_base" groups="base.group_no_one"/>
+				<field name="l10n_ec_code_applied" groups="base.group_no_one"/>
+				<field name="l10n_ec_code_ats"/>
+			</xpath>
+			<xpath expr="//field[@name='amount_type']" position="after">
+				<field name="l10n_ec_sri_code"/>
+			</xpath>
+		</field>
+	</record>
+	<record id="tax_group_view" model="ir.ui.view">
+        <field name="name">tax_group.form</field>
+        <field name="model">account.tax.group</field>
+        <field name="arch" type="xml">
+            <form string="Grupo Impuestos">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+							<field name="l10n_ec_type"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+	<record id="tax_group_tree_view" model="ir.ui.view">
+        <field name="name">tax_group.tree</field>
+        <field name="model">account.tax.group</field>
+        <field name="arch" type="xml">
+            <tree string="Grupo Impuestos">
+                <field name="name"/>
+                <field name="code"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<autorizacion>
+  <estado>{{ estado }}</estado>
+  <numeroAutorizacion>{{ numeroAutorizacion }}</numeroAutorizacion>
+  <fechaAutorizacion>{{ fechaAutorizacion }}</fechaAutorizacion>
+  <ambiente>{{ ambiente }}</ambiente>
+  <comprobante><![CDATA[ {{ comprobante }} ]]></comprobante>
+</autorizacion>

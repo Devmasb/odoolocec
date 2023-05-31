@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sri_authorization,sri_authorization.user,model_sri_authorization,base.group_user,1,1,1,1
+access_sri_xades_type_admin,sri_xades_type.user_admin,model_sri_key_type,account.group_account_manager,1,1,1,1
+access_sri_xades_type_public,sri_xades_type.user,model_sri_key_type,,1,0,0,0

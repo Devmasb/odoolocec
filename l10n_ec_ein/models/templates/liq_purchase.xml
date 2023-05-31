@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liquidacionCompra id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>{{ ambiente }}</ambiente>
+        <tipoEmision>{{ tipoEmision }}</tipoEmision>
+        <razonSocial>{{ razonSocial }}</razonSocial>
+        {% if nombreComercial %}
+        <nombreComercial>{{ nombreComercial }}</nombreComercial>
+        {% endif %}
+        <ruc>{{ ruc }}</ruc>
+        <claveAcceso>{{ claveAcceso }}</claveAcceso>
+        <codDoc>{{ codDoc }}</codDoc>
+        <estab>{{ estab }}</estab>
+        <ptoEmi>{{ ptoEmi }}</ptoEmi>
+        <secuencial>{{ secuencial }}</secuencial>
+        <dirMatriz>{{ dirMatriz }}</dirMatriz>
+        {% if agenteRetencion %}
+        <agenteRetencion>{{ agenteRetencion }}</agenteRetencion>
+        {% endif %}
+    </infoTributaria>
+    <infoLiquidacionCompra>
+        <fechaEmision>{{fechaEmision}}</fechaEmision>
+        <dirEstablecimiento>{{ dirEstablecimiento }}</dirEstablecimiento> 
+        <obligadoContabilidad>{{ obligadoContabilidad }}</obligadoContabilidad> 
+        <tipoIdentificacionProveedor>{{tipoIdentificacionProveedor}}</tipoIdentificacionProveedor>
+        <razonSocialProveedor>{{razonSocialProveedor}}</razonSocialProveedor>
+        <identificacionProveedor>{{identificacionProveedor}}</identificacionProveedor>
+        <totalSinImpuestos>{{ totalSinImpuestos }}</totalSinImpuestos>
+        <totalDescuento>{{ totalDescuento }}</totalDescuento>
+        <totalConImpuestos>
+            {% for item in totalConImpuestos %}
+            <totalImpuesto>
+                <codigo>{{ item['codigo'] }}</codigo>
+                <codigoPorcentaje>{{ item['codigoPorcentaje'] }}</codigoPorcentaje>
+                <baseImponible>{{ item['baseImponible'] }}</baseImponible>
+                <tarifa>{{ item['tarifa'] }}</tarifa>
+                <valor>{{ item['valor'] }}</valor>
+            </totalImpuesto>
+            {% endfor %}
+        </totalConImpuestos>
+        <importeTotal>{{importeTotal}}</importeTotal>
+    </infoLiquidacionCompra>
+    <detalles>
+    {% for item in detalles %}
+        <detalle>
+            <codigoPrincipal>{{ item['codigoPrincipal'] }}</codigoPrincipal>
+            <descripcion>{{ item['descripcion'] }}</descripcion>
+            <cantidad>{{ item['cantidad'] }}</cantidad>
+            <precioUnitario>{{ item['precioUnitario'] }}</precioUnitario>
+            <descuento>{{ item['descuento'] }}</descuento>
+            <precioTotalSinImpuesto>{{ item['precioTotalSinImpuesto'] }}</precioTotalSinImpuesto>
+            <detallesAdicionales>
+            <detAdicional nombre="{{ 'UMedida' }}" valor="{{'Unidad'}}"/>
+            </detallesAdicionales>
+            <impuestos>
+            {% for tax in item['impuestos'] %}
+            <impuesto>
+                <codigo>{{ tax['codigo'] }}</codigo>
+                <codigoPorcentaje>{{ tax['codigoPorcentaje'] }}</codigoPorcentaje>
+                <tarifa>{{ tax['tarifa'] }}</tarifa>
+                <baseImponible>{{ tax['baseImponible'] }}</baseImponible>
+                <valor>{{ tax['valor'] }}</valor>
+            </impuesto>
+            {% endfor %}
+            </impuestos>
+        </detalle>
+    {% endfor %}
+    </detalles>
+</liquidacionCompra>

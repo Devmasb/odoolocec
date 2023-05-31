@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_company_form_inherit_lec">
+        <field name="name">res.company.lec.form</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <field name="partner_id" position="before">
+                <field name="taxpayer_type" required="1" options="{'no_create': True}"/>
+                <field name="property_account_position_id" required="1" options="{'no_create': True}"/>
+                <!--                 <field name="taxid_type" required="1" options="{'no_create': True}"/>-->
+            </field>
+        </field>
+    </record>
+    <record id="view_res_company_settings_form" model="ir.ui.view">
+        <field name="name">account.res.company.setting.form</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="agente_retencion"/>
+                <field name="val_agente_retencion" placeholder="Código Autorizado"
+                       attrs="{'invisible': [('agente_retencion','!=',True)]}"/>
+
+                <field name="contribuyente_especial"/>
+                <field name="val_contribuyente_especial" attrs="{'invisible': [('contribuyente_especial','!=',True)]}"/>
+
+                <field name="es_artesano"/>
+                <field name="registo_artesanal" placeholder="Código Autorizado"
+                       attrs="{'invisible': [('es_artesano','!=',True)]}"/>
+
+                <field name="is_microcompany"/>
+                <field name="is_rimpe"/>
+                <field name="rimpe_type" attrs="{'invisible' : [('is_rimpe', '=', False)]}"/>
+                <field name="is_special_taxpayer"/>
+                <field name="send_sri_data"/>
+                <!--             <field name="need_accounting"/>-->
+            </xpath>
+            <xpath expr="//field[@name='street']" position="attributes">
+                <attribute name="required">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='email']" position="attributes">
+                <attribute name="required">1</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="view_res_company_ei_form" model="ir.ui.view">
+        <field name="name">account.res.company.ei.form</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Electronic Documents">
+                    <groups>
+                        <group>
+                            <field name="env_service"/>
+                            <field name="is_force_keep_accounting"/>
+                        </group>
+                    </groups>
+                </page>
+            </notebook>
+        </field>
+    </record>
+    <record id="view_company_latam_form" model="ir.ui.view">
+        <field name="name">view_company_latam_form</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="model">res.company</field>
+        <field name="priority">100</field>
+        <field type="xml" name="arch">
+            <field name="vat" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <field name="vat" position="after">
+                <label for="l10n_latam_identification_type_id" string="Identification Number"/>
+                <div>
+                    <field name="l10n_latam_identification_type_id" options="{'no_open': True, 'no_create': True}"
+                           placeholder="Type"
+                           domain="country_id and ['|', ('country_id', '=', False), ('country_id', '=', country_id)] or []"
+                           required="True"/>
+                    <span class="oe_read_only">-</span>
+                    <field name="vat" placeholder="Number" class="oe_inline" />
+                </div>
+            </field>
+            <field name="email" position="after">
+                <field name="transfer_account_id"/>
+            </field>
+        </field>
+    </record>
+</odoo>
+

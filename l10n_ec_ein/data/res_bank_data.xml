@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="bank_ec_solidario" model="res.bank">
+            <field name="name">Banco Solidario</field>
+	    <field name="bic">PICHECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_produbanco" model="res.bank">
+            <field name="name">Banco Produbanco</field>
+	    <field name="bic">PRODECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_pichincha" model="res.bank">
+            <field name="name">Banco Pichincha</field>
+	    <field name="bic">PICHECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_internacional" model="res.bank">
+            <field name="name">Banco Internacional</field>
+	    <field name="bic">BINTECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_amazonas" model="res.bank">
+            <field name="name">Banco Amazonas</field>
+	    <field name="bic">BASAECEGXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_guayaquil" model="res.bank">
+            <field name="name">Banco de Guayaquil</field>
+	    <field name="bic">GUAYECEGXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_gnralrumi" model="res.bank">
+            <field name="name">Banco General Rumiñahui</field>
+	    <field name="bic">BGRMECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_pacifico" model="res.bank">
+            <field name="name">Banco del Pacífico</field>
+	    <field name="bic">PACIECEGXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_loja" model="res.bank">
+            <field name="name">Banco de Loja</field>
+	    <field name="bic">LOJBECELXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_austro" model="res.bank">
+            <field name="name">Banco del Austro</field>
+	    <field name="bic">AUSTECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_bolivariano" model="res.bank">
+            <field name="name">Banco Bolivariano</field>
+	    <field name="bic">BBOLECEGXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_machala" model="res.bank">
+            <field name="name">Banco de Machala</field>
+	    <field name="bic">BMACECEGXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_bank" model="res.bank">
+            <field name="name">Banco Del Bank</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_capital" model="res.bank">
+            <field name="name">Banco Capital</field>
+	    <field name="bic">BCAPECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_manabi" model="res.bank">
+            <field name="name">Banco Comercial de Manabí</field>
+	    <field name="bic">CBMIECE1XXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_coopnacional" model="res.bank">
+            <field name="name">Banco Coopnacional</field>
+	    <field name="bic">CFNAECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_dmiro" model="res.bank">
+            <field name="name">Banco D-Miro</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+	<record id="bank_ec_central" model="res.bank">
+            <field name="name">Banco Central</field>
+	    <field name="bic">BCENECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_finca" model="res.bank">
+            <field name="name">Banco Finca</field>
+	    <field name="bic">FCNCECE1XXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_litoral" model="res.bank">
+            <field name="name">Banco Litoral</field>
+	    <field name="bic">LITBECEFXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_bancodesarrollo" model="res.bank">
+            <field name="name">Bancodesarrollo</field>
+	    <field name="bic">CODSECEQXXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+        <record id="bank_ec_citibank" model="res.bank">
+            <field name="name">CITIBANK</field>
+	    <field name="bic">CITIECE1XXX</field>
+            <field name="country" ref="base.ec"/>
+        </record>
+
+    </data>
+</odoo>
